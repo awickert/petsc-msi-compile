@@ -51,6 +51,13 @@ Running configure on MPICH; this may take several minutes
 =============================================================================================
 Running make on MPICH; this may take several minutes
 =============================================================================================
-```
 
-Based on the GNU message, I am currently thinking of simply removing that `./configure` flag.
+                        *******************************************************************************
+         UNABLE to CONFIGURE with GIVEN OPTIONS    (see configure.log for details):
+-------------------------------------------------------------------------------
+Error running make; make install on MPICH
+*******************************************************************************
+```
+Well, BUMMER!
+
+Based on the GNU message, I am currently thinking of simply removing that `./configure` flag. This for the next test.
